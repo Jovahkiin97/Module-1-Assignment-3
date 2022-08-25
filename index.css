@@ -64,9 +64,6 @@ section {
     display: block;
 }
 
-.features {
-    justify-content: center;
-}
 
 .landing-page-area-one {
     text-align: center;
@@ -87,13 +84,21 @@ section {
     display: flex;
 }
 
-.image-container-features{
-    width: 10%;
-    height: auto;
+.image-container-features {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: flex-start;
+    margin-bottom: -200px;
 }
 
-.main-tile-dimension {
-    margin: 50px;
+.feature-info{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 400px;
+    justify-content: flex-end;
 }
 
 .read-button{
@@ -131,6 +136,10 @@ section {
 
 footer {
     margin-bottom: 0px;
+}
+
+.main-tile-dimension{
+    margin: 50px;
 }
 
 .bottom {
